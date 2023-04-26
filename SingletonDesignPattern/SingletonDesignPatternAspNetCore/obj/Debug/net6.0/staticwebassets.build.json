@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zhfM7YmgnKhrbLepfw1fuOEL3sxovpB6xioaNrtG8Ko=",
+  "Source": "SingletonDesignPatternAspNetCore",
+  "BasePath": "_content/SingletonDesignPatternAspNetCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
