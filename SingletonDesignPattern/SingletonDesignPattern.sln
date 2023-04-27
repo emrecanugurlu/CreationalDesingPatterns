@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDesignPattern", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDesignPatternAspNetCore", "SingletonDesignPatternAspNetCore\SingletonDesignPatternAspNetCore.csproj", "{503449BF-87FC-40AB-A926-51D559B82318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPatternAsync", "SingletonDesignPatternAsync\SingletonDesignPatternAsync.csproj", "{B0F7C178-A9CF-47BB-93D0-D1542C1D1D8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDesignPatternAsync", "SingletonDesignPatternAsync\SingletonDesignPatternAsync.csproj", "{B0F7C178-A9CF-47BB-93D0-D1542C1D1D8A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "SingletonDesignPatternTypeScript", "SingletonDesignPatternTypeScript\SingletonDesignPatternTypeScript.esproj", "{3B730AA1-8F1E-473D-B1CA-52D0495F5C96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,12 @@ Global
 		{B0F7C178-A9CF-47BB-93D0-D1542C1D1D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0F7C178-A9CF-47BB-93D0-D1542C1D1D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0F7C178-A9CF-47BB-93D0-D1542C1D1D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B730AA1-8F1E-473D-B1CA-52D0495F5C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B730AA1-8F1E-473D-B1CA-52D0495F5C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B730AA1-8F1E-473D-B1CA-52D0495F5C96}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3B730AA1-8F1E-473D-B1CA-52D0495F5C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B730AA1-8F1E-473D-B1CA-52D0495F5C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B730AA1-8F1E-473D-B1CA-52D0495F5C96}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
