@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultitonDesignPattern", "MultitonDesignPattern\MultitonDesignPattern.csproj", "{95716BC2-F755-4D2B-BCC8-339DEDAC01C7}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "MultitonDesignPatternTypeScript", "MultitonDesignPatternTypeScript\MultitonDesignPatternTypeScript.esproj", "{48D75D79-9C1D-47FE-BD7C-F4BB5D346E57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{95716BC2-F755-4D2B-BCC8-339DEDAC01C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95716BC2-F755-4D2B-BCC8-339DEDAC01C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95716BC2-F755-4D2B-BCC8-339DEDAC01C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D75D79-9C1D-47FE-BD7C-F4BB5D346E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D75D79-9C1D-47FE-BD7C-F4BB5D346E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D75D79-9C1D-47FE-BD7C-F4BB5D346E57}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{48D75D79-9C1D-47FE-BD7C-F4BB5D346E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D75D79-9C1D-47FE-BD7C-F4BB5D346E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D75D79-9C1D-47FE-BD7C-F4BB5D346E57}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
