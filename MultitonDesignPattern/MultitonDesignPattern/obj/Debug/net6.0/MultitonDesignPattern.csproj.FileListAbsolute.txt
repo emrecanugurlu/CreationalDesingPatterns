@@ -1,0 +1,15 @@
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\bin\Debug\net6.0\MultitonDesignPattern.exe
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\bin\Debug\net6.0\MultitonDesignPattern.deps.json
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\bin\Debug\net6.0\MultitonDesignPattern.runtimeconfig.json
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\bin\Debug\net6.0\MultitonDesignPattern.dll
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\bin\Debug\net6.0\MultitonDesignPattern.pdb
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\obj\Debug\net6.0\MultitonDesignPattern.csproj.AssemblyReference.cache
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\obj\Debug\net6.0\MultitonDesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\obj\Debug\net6.0\MultitonDesignPattern.AssemblyInfoInputs.cache
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\obj\Debug\net6.0\MultitonDesignPattern.AssemblyInfo.cs
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\obj\Debug\net6.0\MultitonDesignPattern.csproj.CoreCompileInputs.cache
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\obj\Debug\net6.0\MultitonDesignPattern.dll
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\obj\Debug\net6.0\refint\MultitonDesignPattern.dll
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\obj\Debug\net6.0\MultitonDesignPattern.pdb
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\obj\Debug\net6.0\MultitonDesignPattern.genruntimeconfig.cache
+D:\CreationalDesignPattern\MultitonDesignPattern\MultitonDesignPattern\obj\Debug\net6.0\ref\MultitonDesignPattern.dll
