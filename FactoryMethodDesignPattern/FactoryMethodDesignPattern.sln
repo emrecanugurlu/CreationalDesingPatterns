@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodDesignPattern", "FactoryMethodDesignPattern\FactoryMethodDesignPattern.csproj", "{A2DD46CC-9E8B-4494-8BF9-C6715C0FB0A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodDesignPattern", "FactoryMethodDesignPattern\FactoryMethodDesignPattern.csproj", "{A2DD46CC-9E8B-4494-8BF9-C6715C0FB0A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodDesignPattern(FactoryMethod)", "FactoryMethodDesignPattern(FactoryMethod)\FactoryMethodDesignPattern(FactoryMethod).csproj", "{1819B924-2D13-4393-B7AE-A4F8192DAC43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A2DD46CC-9E8B-4494-8BF9-C6715C0FB0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2DD46CC-9E8B-4494-8BF9-C6715C0FB0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2DD46CC-9E8B-4494-8BF9-C6715C0FB0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1819B924-2D13-4393-B7AE-A4F8192DAC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1819B924-2D13-4393-B7AE-A4F8192DAC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1819B924-2D13-4393-B7AE-A4F8192DAC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1819B924-2D13-4393-B7AE-A4F8192DAC43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
