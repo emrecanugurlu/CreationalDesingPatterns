@@ -1,107 +1,173 @@
 ﻿ComputerCreator computerCreator = new ComputerCreator();
-computerCreator.createComputer(new AsusComputerFactory());
+computerCreator.createComputer(ComputerName.Toshiba);
 
-    class Computer
+
+class Computer
+{
+    public Computer(CPU cPU, RAM rAM, GraphicCard graphicCard)
     {
-        public Computer(CPU cPU, RAM rAM, GraphicCard graphicCard)
+        CPU = cPU;
+        RAM = rAM;
+        GraphicCard = graphicCard;
+    }
+
+    public Computer()
+    {
+    }
+
+    public CPU CPU { get; set; }
+    public RAM RAM { get; set; }
+    public GraphicCard GraphicCard { get; set; }
+}
+public class CPU
+{
+
+}
+class RAM
+{
+
+}
+class GraphicCard
+{
+
+}
+
+enum ComputerName
+{
+    Asus,
+    Lenova,
+    MSI,
+    Toshiba
+}
+
+class ComputerCreator
+{
+    CPU CPU;
+    RAM RAM;
+    GraphicCard GraphicCard;
+    public Computer createComputer(ComputerName computerName)
+    {
+        IComputerFactory factory = computerName switch
         {
-            CPU = cPU;
-            RAM = rAM;
-            GraphicCard = graphicCard;
-        }
+            ComputerName.Asus => new AsusComputerFactory(),
+            ComputerName.MSI => new MSIComputerFactory(),
+            ComputerName.Lenova => new LenovaComputerFactory(),
+            ComputerName.Toshiba => new ToshibaComputerFactory(),
 
-        public Computer()
-        {
-        }
+        };
 
-        public CPU CPU { get; set; }
-        public RAM RAM { get; set; }
-        public GraphicCard GraphicCard { get; set; }
+        CPU = factory.createCPU();
+        RAM = factory.createRAM();
+        GraphicCard = factory.createGraphicCard();
+
+        return new Computer(CPU, RAM, GraphicCard);
     }
-    public class CPU
-    {
+}
 
-    }
-    class RAM
-    {
+interface IComputerFactory
+{
+    public CPU createCPU();
+    public RAM createRAM();
+    public GraphicCard createGraphicCard();
+    public void Run();
+}
 
-    }
-    class GraphicCard
-    {
-
-    }
-
-
-
-    class ComputerCreator
-    {
-        CPU CPU;
-        RAM RAM;
-        GraphicCard GraphicCard;
-        public Computer createComputer(IComputerFactory factory)
-        {
-            CPU = factory.createCPU();
-            RAM = factory.createRAM();
-            GraphicCard = factory.createGraphicCard();
-
-            return new Computer(CPU, RAM, GraphicCard);
-        }
-    }
-
-    interface IComputerFactory
-    {
-        public CPU createCPU();
-        public RAM createRAM();
-        public GraphicCard createGraphicCard();
-        public void Run();
-    }
-
-    class AsusComputerFactory : IComputerFactory
-    {
+class AsusComputerFactory : IComputerFactory
+{
     public AsusComputerFactory()
     {
         Console.WriteLine($"{nameof(AsusComputerFactory)} nesnesi oluşturuldu");
     }
 
     public CPU createCPU()
-        {
-            return new CPU();
-        }
-
-        public GraphicCard createGraphicCard()
-        {
-            return new GraphicCard();
-        }
-
-        public RAM createRAM()
-        {
-            return new RAM();
-        }
-
-        public void Run()
-        {
-            
-        }
+    {
+        return new CPU();
     }
-    //class LenovaComputerFactory : IComputerFactory
-    //{
-    //    public void Run()
-    //    {
-    //        Console.WriteLine($"{nameof(LenovaComputerCreator)} nesnesi oluşturuldu");
-    //    }
-    //}
-    //class MSIComputerFactory : IComputerFactory
-    //{
-    //    public void Run()
-    //    {
-    //        Console.WriteLine($"{nameof(MSIComputerCreator)} nesnesi oluşturuldu");
-    //    }
-    //}
-    //class ToshibaComputerFactory : IComputerFactory
-    //{
-    //    public void Run()
-    //    {
-    //        Console.WriteLine($"{nameof(ToshibaComputerCreator)} nesnesi oluşturuldu");
-    //    }
-    //}
+
+    public GraphicCard createGraphicCard()
+    {
+        return new GraphicCard();
+    }
+
+    public RAM createRAM()
+    {
+        return new RAM();
+    }
+
+    public void Run()
+    {
+
+    }
+}
+class LenovaComputerFactory : IComputerFactory
+{
+    public CPU createCPU()
+    {
+        return new CPU();
+    }
+
+    public GraphicCard createGraphicCard()
+    {
+        return new GraphicCard();
+    }
+
+    public RAM createRAM()
+    {
+        return new RAM();
+    }
+
+    public void Run()
+    {
+        Console.WriteLine($"{nameof(LenovaComputerFactory)} nesnesi oluşturuldu");
+    }
+}
+class MSIComputerFactory : IComputerFactory
+{
+    public CPU createCPU()
+    {
+        return new CPU();
+    }
+
+    public GraphicCard createGraphicCard()
+    {
+        return new GraphicCard();
+    }
+
+    public RAM createRAM()
+    {
+        return new RAM();
+    }
+
+    public void Run()
+    {
+        Console.WriteLine($"{nameof(MSIComputerFactory)} nesnesi oluşturuldu");
+    }
+}
+class ToshibaComputerFactory : IComputerFactory
+{
+    public ToshibaComputerFactory()
+    {
+        Console.WriteLine($"{nameof(ToshibaComputerFactory)} oluşturuldu.");
+    }
+
+    public CPU createCPU()
+    {
+        return new CPU();
+    }
+
+    public GraphicCard createGraphicCard()
+    {
+        return new GraphicCard();
+    }
+
+    public RAM createRAM()
+    {
+        return new RAM();
+    }
+
+    public void Run()
+    {
+        Console.WriteLine($"{nameof(ToshibaComputerFactory)} nesnesi oluşturuldu");
+    }
+}
 
