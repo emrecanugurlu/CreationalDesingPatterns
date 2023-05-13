@@ -83,7 +83,7 @@ class MsSqlFactory : IDatabaseFactory
 
     public Connection createConnection()
     {
-        throw new NotImplementedException();
+        return new Connection { };
     }
 
     public DatabaseType createDatabseType()
