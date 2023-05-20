@@ -1,0 +1,15 @@
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\bin\Debug\net6.0\PrototypeDesignPattern.exe
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\bin\Debug\net6.0\PrototypeDesignPattern.deps.json
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\bin\Debug\net6.0\PrototypeDesignPattern.runtimeconfig.json
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\bin\Debug\net6.0\PrototypeDesignPattern.dll
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\bin\Debug\net6.0\PrototypeDesignPattern.pdb
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\obj\Debug\net6.0\PrototypeDesignPattern.csproj.AssemblyReference.cache
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\obj\Debug\net6.0\PrototypeDesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\obj\Debug\net6.0\PrototypeDesignPattern.AssemblyInfoInputs.cache
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\obj\Debug\net6.0\PrototypeDesignPattern.AssemblyInfo.cs
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\obj\Debug\net6.0\PrototypeDesignPattern.csproj.CoreCompileInputs.cache
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\obj\Debug\net6.0\PrototypeDesignPattern.dll
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\obj\Debug\net6.0\refint\PrototypeDesignPattern.dll
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\obj\Debug\net6.0\PrototypeDesignPattern.pdb
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\obj\Debug\net6.0\PrototypeDesignPattern.genruntimeconfig.cache
+D:\Software Project\CreationalDesignPattern\PrototypeDesignPattern\PrototypeDesignPattern\obj\Debug\net6.0\ref\PrototypeDesignPattern.dll
